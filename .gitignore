@@ -2,6 +2,8 @@
 # macOS
 .DS_store
 
+.idea
+
 # Logs
 logs
 *.log
