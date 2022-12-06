@@ -1,0 +1,34 @@
+base-instrumented.js:5 _PROFILING_INFO_start function null from ../subjects/polymer/bower_components/todomvc-common/base.js in 2_PROFILING_INFO_
+base-instrumented.js:11 _PROFILING_INFO_start function null from ../subjects/polymer/bower_components/todomvc-common/base.js in 8_PROFILING_INFO_
+base-instrumented.js:136 _PROFILING_INFO_start function redirect from ../subjects/polymer/bower_components/todomvc-common/base.js in 126_PROFILING_INFO_
+base-instrumented.js:153 _PROFILING_INFO_start function getFile from ../subjects/polymer/bower_components/todomvc-common/base.js in 137_PROFILING_INFO_
+base-instrumented.js:145 _PROFILING_INFO_start function findRoot from ../subjects/polymer/bower_components/todomvc-common/base.js in 132_PROFILING_INFO_
+base-instrumented.js:160          GET http://localhost:8000/polymer/learn.json 404 (File not found)
+getFile @ base-instrumented.js:160
+(anonymous) @ base-instrumented.js:267
+(anonymous) @ base-instrumented.js:268
+base-instrumented.js:164 _PROFILING_INFO_start function null from ../subjects/polymer/bower_components/todomvc-common/base.js in 147_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:5 _PROFILING_INFO_start function null from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1157 _PROFILING_INFO_start function t from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1177 _PROFILING_INFO_start function o from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1170 _PROFILING_INFO_start function n from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1202 _PROFILING_INFO_start function i from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1239 _PROFILING_INFO_start function a from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2537 _PROFILING_INFO_start function null from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2492 _PROFILING_INFO_start function p from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2476 _PROFILING_INFO_start function f from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2441 _PROFILING_INFO_start function d from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:1853 _PROFILING_INFO_start function r from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 11_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2341 _PROFILING_INFO_start function t from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2392 _PROFILING_INFO_start function r from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2401 _PROFILING_INFO_start function i from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2409 _PROFILING_INFO_start function a from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2418 _PROFILING_INFO_start function s from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2357 _PROFILING_INFO_start function n from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2449 _PROFILING_INFO_start function l from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2456 _PROFILING_INFO_start function u from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2434 _PROFILING_INFO_start function c from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2309 _PROFILING_INFO_start function o from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2259 _PROFILING_INFO_start function v from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2246 _PROFILING_INFO_start function m from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_
+webcomponents-lite.min-instrumented.js:2268 _PROFILING_INFO_start function w from ../subjects/polymer/bower_components/webcomponentsjs/webcomponents-lite.min.js in 12_PROFILING_INFO_

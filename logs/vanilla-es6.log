@@ -1,0 +1,38 @@
+bundle-instrumented.js:64 _PROFILING_INFO_start function t from ../subjects/vanilla-es6/dist/bundle.js in 1_PROFILING_INFO_
+bundle-instrumented.js:227 _PROFILING_INFO_start function F from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:161 _PROFILING_INFO_start function z from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:175 _PROFILING_INFO_start function B from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:168 _PROFILING_INFO_start function A from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:360 _PROFILING_INFO_start function N from ../subjects/vanilla-es6/dist/bundle.js in 4_PROFILING_INFO_
+bundle-instrumented.js:270 _PROFILING_INFO_start function H from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
+bundle-instrumented.js:323 _PROFILING_INFO_start function L from ../subjects/vanilla-es6/dist/bundle.js in 4_PROFILING_INFO_
+bundle-instrumented.js:345 _PROFILING_INFO_start function M from ../subjects/vanilla-es6/dist/bundle.js in 4_PROFILING_INFO_
+bundle-instrumented.js:296 _PROFILING_INFO_start function J from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
+bundle-instrumented.js:309 _PROFILING_INFO_start function K from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
+bundle-instrumented.js:283 _PROFILING_INFO_start function I from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
+base-instrumented.js:5 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 2_PROFILING_INFO_
+base-instrumented.js:11 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 8_PROFILING_INFO_
+base-instrumented.js:136 _PROFILING_INFO_start function redirect from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 126_PROFILING_INFO_
+base-instrumented.js:153 _PROFILING_INFO_start function getFile from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 137_PROFILING_INFO_
+base-instrumented.js:145 _PROFILING_INFO_start function findRoot from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 132_PROFILING_INFO_
+bundle-instrumented.js:515 _PROFILING_INFO_start function S from ../subjects/vanilla-es6/dist/bundle.js in 6_PROFILING_INFO_
+bundle-instrumented.js:491 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 6_PROFILING_INFO_
+bundle-instrumented.js:86 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 1_PROFILING_INFO_
+bundle-instrumented.js:253 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:206 _PROFILING_INFO_start function D from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:145 _PROFILING_INFO_start function y from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:161 _PROFILING_INFO_start function z from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+base-instrumented.js:160          GET http://localhost:8000/vanilla-es6/learn.json 404 (File not found)
+getFile @ base-instrumented.js:160
+(anonymous) @ base-instrumented.js:267
+(anonymous) @ base-instrumented.js:268
+base-instrumented.js:164 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/node_modules/todomvc-common/base.js in 147_PROFILING_INFO_
+bundle-instrumented.js:275 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
+bundle-instrumented.js:386 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 4_PROFILING_INFO_
+bundle-instrumented.js:117 _PROFILING_INFO_start function v from ../subjects/vanilla-es6/dist/bundle.js in 1_PROFILING_INFO_
+bundle-instrumented.js:192 _PROFILING_INFO_start function C from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:220 _PROFILING_INFO_start function E from ../subjects/vanilla-es6/dist/bundle.js in 2_PROFILING_INFO_
+bundle-instrumented.js:457 _PROFILING_INFO_start function O from ../subjects/vanilla-es6/dist/bundle.js in 5_PROFILING_INFO_
+bundle-instrumented.js:103 _PROFILING_INFO_start function u from ../subjects/vanilla-es6/dist/bundle.js in 1_PROFILING_INFO_
+bundle-instrumented.js:465 _PROFILING_INFO_start function null from ../subjects/vanilla-es6/dist/bundle.js in 5_PROFILING_INFO_
+bundle-instrumented.js:260 _PROFILING_INFO_start function G from ../subjects/vanilla-es6/dist/bundle.js in 3_PROFILING_INFO_
