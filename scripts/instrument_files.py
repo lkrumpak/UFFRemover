@@ -24,13 +24,13 @@ def instrument_files(subjects=None):
 
         for js_path in js_paths:
             command = "node " + uff_path + " instrument_file " + proj_path + "/" + js_path
-            # os.system(command)
+            os.system(command)
             print("running command: " + command)
 
 
 if __name__ == '__main__':
     # instrument 1 or multiple subjects
-    s = ["vue"]
+    s = ["somajs"]
     instrument_files(s)
 
     # instrument all subjects

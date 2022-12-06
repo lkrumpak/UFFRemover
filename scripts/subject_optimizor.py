@@ -1,4 +1,4 @@
-import os
+import os, csv
 
 
 def parse_html(dir_path):
@@ -9,18 +9,22 @@ def parse_html(dir_path):
         if '<script src=' in line:
             path = line.split('"')[1]
             paths.append(path)
+        if '<script type="text/javascript" src=' in line:
+            path = line.split('"')[3]
+            print(path)
+            paths.append(path)
     return paths
 
 
 def generate_output_file(func, uff, subject, file):
-    output_file = subject + '-output.txt'
-    print("output file: " + output_file)
+    output_file = 'output.csv'
+    print("adding data to output file: " + output_file)
+    # subject-file, Nr Functions, nr Uffs
 
-    with open(output_file, 'r+') as f:
-        f.read()
-        f.write("File: " + file + '\n')
-        f.write("Nr functions: " + func + '\n')
-        f.write("Nr uff: " + uff + '\n')
+    with open(output_file, 'a+') as f:
+        writer = csv.writer(f)
+        data = [subject + "-" + file, func, uff]
+        writer.writerow(data)
 
 
 def parse_optimizer_output(output, subject, file):
@@ -56,7 +60,7 @@ def optimize_subjects(subjects=None):
         log_path = '../logs/' + webapp + ".log"
         js_paths = parse_html(proj_path)
         print("=== Current Subject: " + webapp + " ===")
-
+        print(js_paths)
         for js_path in js_paths:
             js_path = js_path.replace("-instrumented", '')
             filename = js_path.split("/")[-1].split(".")[0]
@@ -69,7 +73,8 @@ def optimize_subjects(subjects=None):
 
 if __name__ == '__main__':
     # optimize 1 or multiple subjects
-    s = ["vue"]
+    # "riotjs","somajs","typescript-react","sapui5",enyo_backbone
+    s = ["sapui5"]
     optimize_subjects(s)
 
     # optimize all subjects
