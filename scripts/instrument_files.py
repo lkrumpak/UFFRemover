@@ -1,17 +1,8 @@
 import os
+from html_parser import parse_html
 
 
-def parse_html(dir_path):
-    paths = []
-    with open(dir_path + '/index.html', 'rt') as f:
-        data = f.readlines()
-    for line in data:
-        if '<script src=' in line:
-            path = line.split('"')[1]
-            paths.append(path)
-    return paths
-
-
+# instrument the js files within the subjects folders
 def instrument_files(subjects=None):
     if subjects is None:
         subjects = next(os.walk('../subjects'))[1]
@@ -24,14 +15,13 @@ def instrument_files(subjects=None):
 
         for js_path in js_paths:
             command = "node " + uff_path + " instrument_file " + proj_path + "/" + js_path
-            os.system(command)
+
+            # os.system(command)
             print("running command: " + command)
 
 
 if __name__ == '__main__':
     # instrument 1 or multiple subjects
-    s = ["somajs"]
+    # if argument is left empty all the subjects will be considered
+    s = ["somajs", "react"]
     instrument_files(s)
-
-    # instrument all subjects
-    # instrument_files()

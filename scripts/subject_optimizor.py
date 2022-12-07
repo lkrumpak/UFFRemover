@@ -1,52 +1,59 @@
-import os, csv
+import os, csv, json
+from html_parser import parse_html
+from subject import OptimisedSubject, OptimisedFile
 
 
-def parse_html(dir_path):
-    paths = []
-    with open(dir_path + '/index.html', 'rt') as f:
-        data = f.readlines()
-    for line in data:
-        if '<script src=' in line:
-            path = line.split('"')[1]
-            paths.append(path)
-        if '<script type="text/javascript" src=' in line:
-            path = line.split('"')[3]
-            print(path)
-            paths.append(path)
-    return paths
+def generate_output_file(subject):
+    directory = 'output/'
+    output_file = subject.name + '-output.json'
+    file_path = os.path.join(directory, output_file)
+
+    print("Creating output file: " + file_path)
+
+    # create an output directory if its missing
+    if not os.path.isdir(directory):
+        os.mkdir(directory)
+
+    with open(file_path, "w") as outfile:
+        json_object = json.dumps(subject.generate_json_output(), indent=4)
+        outfile.write(json_object)
 
 
-def generate_output_file(func, uff, subject, file):
-    output_file = 'output.csv'
-    print("adding data to output file: " + output_file)
-    # subject-file, Nr Functions, nr Uffs
+def parse_optimizer_output(output):
+    print("Parsing output ...")
 
-    with open(output_file, 'a+') as f:
-        writer = csv.writer(f)
-        data = [subject + "-" + file, func, uff]
-        writer.writerow(data)
-
-
-def parse_optimizer_output(output, subject, file):
-    print("parsing output ...")
     output = output.split('\n')
     functions = [s for s in output if "Functions_in_bundle" in s]
     uffs = [s for s in output if "UFFs detected" in s]
+
     func = functions[0].split(" ")[-1].replace(",", "")
     uff = uffs[0].split(" ")[-1].replace(",", "")
-    generate_output_file(func, uff, subject, file)
+    return int(func), int(uff)
 
 
-def run_optimize_cmd(cmd, subject, file):
-    print("running cmd: " + cmd)
+def create_optimised_file(filename, output):
+    file_obj = OptimisedFile(filename)
+    func, uff = parse_optimizer_output(output)
+
+    file_obj.uff = uff
+    file_obj.alive_functions = func
+
+    return file_obj
+
+
+def run_optimize_cmd(cmd):
+    print("Running cmd: " + cmd)
+
+    # create a temp output file in order to read the output of the command
     output_file = 'output.txt'
-    result_code = os.system(cmd + ' > ' + output_file)
+    os.system(cmd + ' > ' + output_file)
+
     if os.path.exists(output_file):
         fp = open(output_file, "r")
         output = fp.read()
         fp.close()
         os.remove(output_file)
-        parse_optimizer_output(output, subject, file)
+        return output
 
 
 def optimize_subjects(subjects=None):
@@ -56,26 +63,34 @@ def optimize_subjects(subjects=None):
     uff_path = '../../UFFRemover'
 
     for webapp in subjects:
+        print("=== Current Subject: " + webapp + " ===")
+
         proj_path = '../subjects/' + webapp
         log_path = '../logs/' + webapp + ".log"
         js_paths = parse_html(proj_path)
-        print("=== Current Subject: " + webapp + " ===")
-        print(js_paths)
+
+        subject_obj = OptimisedSubject(webapp)
+
         for js_path in js_paths:
             js_path = js_path.replace("-instrumented", '')
-            filename = js_path.split("/")[-1].split(".")[0]
+            filename = js_path.split("/")[-1]
 
-            print("Analyzing file: " + filename)
-            cmd = 'node ' + uff_path + ' optimize_file_browser ../subjects/' + webapp + '/' + js_path + ' ' + log_path
-            run_optimize_cmd(cmd, webapp, filename)
-            print("------")
+            # TODO dirty fix, should be moved to html parser
+            if filename != "soma-v2.1.4.min.js":
 
+                print("Optimizing file: " + filename)
+                cmd = 'node ' + uff_path + ' optimize_file_browser ' + proj_path + '/' + js_path + ' ' + log_path
+
+                output = run_optimize_cmd(cmd)
+                file_obj = create_optimised_file(filename, output)
+                subject_obj.add_file(file_obj)
+                print("----")
+
+        generate_output_file(subject_obj)
+        print("Optimizing Complete")
 
 if __name__ == '__main__':
     # optimize 1 or multiple subjects
     # "riotjs","somajs","typescript-react","sapui5",enyo_backbone
-    s = ["sapui5"]
-    optimize_subjects(s)
+    optimize_subjects()
 
-    # optimize all subjects
-    # optimize_subjects()
