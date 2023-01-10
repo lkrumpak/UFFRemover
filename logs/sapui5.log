@@ -1,12 +1,13 @@
-Device-dbg.js:85 2022-12-06 17:45:07 Device API logging initialized - DEVICE
-base-instrumented.js:5 _PROFILING_INFO_start function null from ../subjects/sapui5/bower_components/todomvc-common/base.js in 1_PROFILING_INFO_
-base-instrumented.js:11 _PROFILING_INFO_start function null from ../subjects/sapui5/bower_components/todomvc-common/base.js in 6_PROFILING_INFO_
-base-instrumented.js:132 _PROFILING_INFO_start function redirect from ../subjects/sapui5/bower_components/todomvc-common/base.js in 118_PROFILING_INFO_
-base-instrumented.js:149 _PROFILING_INFO_start function getFile from ../subjects/sapui5/bower_components/todomvc-common/base.js in 129_PROFILING_INFO_
-base-instrumented.js:141 _PROFILING_INFO_start function findRoot from ../subjects/sapui5/bower_components/todomvc-common/base.js in 124_PROFILING_INFO_
-app-instrumented.js:5 _PROFILING_INFO_start function null from ../subjects/sapui5/js/app.js in 4_PROFILING_INFO_
-base-instrumented.js:156          GET http://localhost:8000/sapui5/learn.json 404 (File not found)
-getFile @ base-instrumented.js:156
-(anonymous) @ base-instrumented.js:233
-(anonymous) @ base-instrumented.js:234
-base-instrumented.js:160 _PROFILING_INFO_start function null from ../subjects/sapui5/bower_components/todomvc-common/base.js in 139_PROFILING_INFO_
+Device-dbg.js:85 2023-01-04 21:43:25 Device API logging initialized - DEVICE
+base-instrumented.js:5 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 1_PROFILING_INFO_
+base-instrumented.js:11 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 6_PROFILING_INFO_
+base-instrumented.js:132 _PROFILING_INFO_start function redirect from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 118_PROFILING_INFO_
+base-instrumented.js:149 _PROFILING_INFO_start function getFile from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 129_PROFILING_INFO_
+base-instrumented.js:141 _PROFILING_INFO_start function findRoot from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 124_PROFILING_INFO_
+app-instrumented.js:5 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/js/app.js in 4_PROFILING_INFO_
+base-instrumented.js:160 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 139_PROFILING_INFO_
+base-instrumented.js:170 _PROFILING_INFO_start function Learn from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 146_PROFILING_INFO_
+base-instrumented.js:205 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 187_PROFILING_INFO_
+base-instrumented.js:52 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 54_PROFILING_INFO_
+base-instrumented.js:16 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 7_PROFILING_INFO_
+base-instrumented.js:66 _PROFILING_INFO_start function null from ../todomvc/examples/sapui5/bower_components/todomvc-common/base.js in 68_PROFILING_INFO_

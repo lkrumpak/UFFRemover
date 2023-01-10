@@ -1,4 +1,4 @@
-import os, csv, json
+import os, json
 from html_parser import parse_html
 from subject import OptimisedSubject, OptimisedFile
 
@@ -36,7 +36,7 @@ def create_optimised_file(filename, output):
     func, uff = parse_optimizer_output(output)
 
     file_obj.uff = uff
-    file_obj.alive_functions = func
+    file_obj.total_functions = func
 
     return file_obj
 
@@ -57,15 +57,19 @@ def run_optimize_cmd(cmd):
 
 
 def optimize_subjects(subjects=None):
+    subject_path = '../todomvc/examples/'
+
     if subjects is None:
-        subjects = next(os.walk('../subjects'))[1]
+        subjects = next(os.walk(subject_path))[1]
 
     uff_path = '../../UFFRemover'
 
     for webapp in subjects:
+        # if webapp in ['dojo', 'somajs', 'troopjs_require']:
+            # continue
         print("=== Current Subject: " + webapp + " ===")
 
-        proj_path = '../subjects/' + webapp
+        proj_path = subject_path + webapp
         log_path = '../logs/' + webapp + ".log"
         js_paths = parse_html(proj_path)
 
@@ -82,15 +86,17 @@ def optimize_subjects(subjects=None):
                 cmd = 'node ' + uff_path + ' optimize_file_browser ' + proj_path + '/' + js_path + ' ' + log_path
 
                 output = run_optimize_cmd(cmd)
-                file_obj = create_optimised_file(filename, output)
+                file_obj = create_optimised_file(js_path, output)
                 subject_obj.add_file(file_obj)
                 print("----")
 
         generate_output_file(subject_obj)
         print("Optimizing Complete")
 
+
 if __name__ == '__main__':
     # optimize 1 or multiple subjects
-    # "riotjs","somajs","typescript-react","sapui5",enyo_backbone
+    # The following are not tested (enyo_backbone,typescript-angular)
+    # The follow need special parsing dojo, somajs, troopjs_require
     optimize_subjects()
 
