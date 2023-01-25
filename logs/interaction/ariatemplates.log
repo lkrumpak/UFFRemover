@@ -1,0 +1,12 @@
+base-instrumented.js:5 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 2_PROFILING_INFO_
+base-instrumented.js:11 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 8_PROFILING_INFO_
+base-instrumented.js:132 _PROFILING_INFO_start function redirect from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 121_PROFILING_INFO_
+base-instrumented.js:149 _PROFILING_INFO_start function getFile from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 132_PROFILING_INFO_
+base-instrumented.js:141 _PROFILING_INFO_start function findRoot from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 127_PROFILING_INFO_
+base-instrumented.js:160 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 142_PROFILING_INFO_
+base-instrumented.js:170 _PROFILING_INFO_start function Learn from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 149_PROFILING_INFO_
+base-instrumented.js:208 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 194_PROFILING_INFO_
+base-instrumented.js:52 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 56_PROFILING_INFO_
+base-instrumented.js:16 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 9_PROFILING_INFO_
+base-instrumented.js:66 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 70_PROFILING_INFO_
+base-instrumented.js:238 _PROFILING_INFO_start function null from ../todomvc/examples/ariatemplates/node_modules/todomvc-common/base.js in 222_PROFILING_INFO_

@@ -1,0 +1,144 @@
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 2_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 8_PROFILING_INFO_
+​ _PROFILING_INFO_start function redirect from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 121_PROFILING_INFO_
+​ _PROFILING_INFO_start function getFile from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 132_PROFILING_INFO_
+​ _PROFILING_INFO_start function findRoot from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 127_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 12_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1712_PROFILING_INFO_
+​ _PROFILING_INFO_start function isArray from ../todomvc/examples/flight/node_modules/requirejs/require.js in 45_PROFILING_INFO_
+​ _PROFILING_INFO_start function getOwn from ../todomvc/examples/flight/node_modules/requirejs/require.js in 83_PROFILING_INFO_
+​ _PROFILING_INFO_start function hasProp from ../todomvc/examples/flight/node_modules/requirejs/require.js in 79_PROFILING_INFO_
+​ _PROFILING_INFO_start function newContext from ../todomvc/examples/flight/node_modules/requirejs/require.js in 197_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1366_PROFILING_INFO_
+​ _PROFILING_INFO_start function mixin from ../todomvc/examples/flight/node_modules/requirejs/require.js in 107_PROFILING_INFO_
+​ _PROFILING_INFO_start function eachProp from ../todomvc/examples/flight/node_modules/requirejs/require.js in 92_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 109_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1254_PROFILING_INFO_
+​ _PROFILING_INFO_start function localRequire from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1369_PROFILING_INFO_
+​ _PROFILING_INFO_start function intakeDefines from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1219_PROFILING_INFO_
+​ _PROFILING_INFO_start function takeGlobalQueue from ../todomvc/examples/flight/node_modules/requirejs/require.js in 554_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1762_PROFILING_INFO_
+​ _PROFILING_INFO_start function each from ../todomvc/examples/flight/node_modules/requirejs/require.js in 53_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1792_PROFILING_INFO_
+​ _PROFILING_INFO_start function scripts from ../todomvc/examples/flight/node_modules/requirejs/require.js in 136_PROFILING_INFO_
+​ _PROFILING_INFO_start function eachReverse from ../todomvc/examples/flight/node_modules/requirejs/require.js in 68_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1946_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1272_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 142_PROFILING_INFO_
+​ _PROFILING_INFO_start function Learn from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 149_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 194_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 56_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 9_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 70_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/todomvc-common/base.js in 222_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1413_PROFILING_INFO_
+​ _PROFILING_INFO_start function makeModuleMap from ../todomvc/examples/flight/node_modules/requirejs/require.js in 414_PROFILING_INFO_
+​ _PROFILING_INFO_start function splitPrefix from ../todomvc/examples/flight/node_modules/requirejs/require.js in 389_PROFILING_INFO_
+​ _PROFILING_INFO_start function normalize from ../todomvc/examples/flight/node_modules/requirejs/require.js in 267_PROFILING_INFO_
+​ _PROFILING_INFO_start function trimDots from ../todomvc/examples/flight/node_modules/requirejs/require.js in 234_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1586_PROFILING_INFO_
+​ _PROFILING_INFO_start function getModule from ../todomvc/examples/flight/node_modules/requirejs/require.js in 495_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 721_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 738_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1087_PROFILING_INFO_
+​ _PROFILING_INFO_start function bind from ../todomvc/examples/flight/node_modules/requirejs/require.js in 130_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 836_PROFILING_INFO_
+​ _PROFILING_INFO_start function isFunction from ../todomvc/examples/flight/node_modules/requirejs/require.js in 41_PROFILING_INFO_
+​ _PROFILING_INFO_start function cleanRegistry from ../todomvc/examples/flight/node_modules/requirejs/require.js in 600_PROFILING_INFO_
+​ _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1162_PROFILING_INFO_
+​ _PROFILING_INFO_start function checkLoaded from ../todomvc/examples/flight/node_modules/requirejs/require.js in 634_PROFILING_INFO_
+require-instrumented.js:112 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 131_PROFILING_INFO_
+require-instrumented.js:874 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1098_PROFILING_INFO_
+require-instrumented.js:376 _PROFILING_INFO_start function on from ../todomvc/examples/flight/node_modules/requirejs/require.js in 506_PROFILING_INFO_
+require-instrumented.js:920 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1154_PROFILING_INFO_
+require-instrumented.js:1227 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1516_PROFILING_INFO_
+require-instrumented.js:645 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 798_PROFILING_INFO_
+require-instrumented.js:668 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 822_PROFILING_INFO_
+require-instrumented.js:1310 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1646_PROFILING_INFO_
+require-instrumented.js:1446 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1842_PROFILING_INFO_
+require-instrumented.js:1435 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1823_PROFILING_INFO_
+require-instrumented.js:531 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 652_PROFILING_INFO_
+require-instrumented.js:1377 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1752_PROFILING_INFO_
+require-instrumented.js:1058 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1296_PROFILING_INFO_
+require-instrumented.js:1089 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1338_PROFILING_INFO_
+require-instrumented.js:1324 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1667_PROFILING_INFO_
+require-instrumented.js:970 _PROFILING_INFO_start function getScriptData from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1203_PROFILING_INFO_
+require-instrumented.js:957 _PROFILING_INFO_start function removeListener from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1182_PROFILING_INFO_
+require-instrumented.js:1237 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1529_PROFILING_INFO_
+require-instrumented.js:948 _PROFILING_INFO_start function callGetModule from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1175_PROFILING_INFO_
+require-instrumented.js:936 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1163_PROFILING_INFO_
+require-instrumented.js:889 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1119_PROFILING_INFO_
+require-instrumented.js:634 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 788_PROFILING_INFO_
+require-instrumented.js:1527 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1996_PROFILING_INFO_
+require-instrumented.js:1317 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1657_PROFILING_INFO_
+debug.js:127 Booting in DEBUG mode
+debug.js:128 You can configure event logging with DEBUG.events.logAll()/logNone()/logByName()/logByAction()
+require-instrumented.js:657 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 813_PROFILING_INFO_
+require-instrumented.js:740 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 932_PROFILING_INFO_
+require-instrumented.js:462 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 584_PROFILING_INFO_
+require-instrumented.js:473 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 591_PROFILING_INFO_
+require-instrumented.js:747 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 942_PROFILING_INFO_
+require-instrumented.js:1168 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1442_PROFILING_INFO_
+require-instrumented.js:801 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 998_PROFILING_INFO_
+require-instrumented.js:907 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 1142_PROFILING_INFO_
+require-instrumented.js:806 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 999_PROFILING_INFO_
+require-instrumented.js:764 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 966_PROFILING_INFO_
+require-instrumented.js:769 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 967_PROFILING_INFO_
+logger.js:75 <- on [dataTodosLoaded] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoAdded] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoRemoved] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoToggled] [object HTMLDocument] 
+logger.js:75 <- on [dataClearedCompleted] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoToggledAll] [object HTMLDocument] 
+logger.js:75 <- on [uiAddRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiUpdateRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiRemoveRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiLoadRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiToggleRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiToggleAllRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiClearRequested] [object HTMLDocument] 
+logger.js:75 <- on [uiFilterRequested] [object HTMLDocument] 
+logger.js:75 <- on [keydown] 'input' 
+logger.js:75 <- on [dataStatsCounted] [object HTMLDocument] 
+logger.js:75 <- on [dataStatsCounted] [object HTMLDocument] 
+logger.js:75 <- on [click] 'footer' 
+logger.js:75 <- on [click] 'footer' 
+logger.js:75 <- on [click] 'input' 
+logger.js:75 <- on [dataStatsCounted] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoAdded] [object HTMLDocument] 
+logger.js:75 <- on [dataTodosLoaded] [object HTMLDocument] 
+logger.js:75 <- on [dataTodosFiltered] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoToggledAll] [object HTMLDocument] 
+logger.js:75 <- on [dataTodoRemoved] [object HTMLDocument] 
+logger.js:75 <- on [click] 'ul' 
+logger.js:75 <- on [click] 'ul' 
+logger.js:75 <- on [dblclick] 'ul' 
+logger.js:74 trigger uiLoadRequested
+require-instrumented.js:576 _PROFILING_INFO_start function null from ../todomvc/examples/flight/node_modules/requirejs/require.js in 711_PROFILING_INFO_
+logger.js:74 trigger uiAddRequested
+logger.js:74 trigger uiAddRequested
+logger.js:74 trigger uiAddRequested
+logger.js:74 trigger uiToggleAllRequested
+logger.js:74 trigger uiToggleAllRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleAllRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiClearRequested
+logger.js:74 trigger uiUpdateRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiRemoveRequested
+logger.js:74 trigger uiAddRequested
+logger.js:74 trigger uiAddRequested
+logger.js:74 trigger uiFilterRequested
+logger.js:74 trigger uiToggleRequested
+logger.js:74 trigger uiFilterRequested
+logger.js:74 trigger uiFilterRequested
+logger.js:74 trigger uiRemoveRequested
+logger.js:74 trigger uiFilterRequested
+logger.js:74 trigger uiFilterRequested
+logger.js:74 trigger uiFilterRequested

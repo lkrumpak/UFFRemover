@@ -1,0 +1,12 @@
+base-instrumented.js:5 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 2_PROFILING_INFO_
+base-instrumented.js:11 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 8_PROFILING_INFO_
+base-instrumented.js:136 _PROFILING_INFO_start function redirect from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 126_PROFILING_INFO_
+base-instrumented.js:153 _PROFILING_INFO_start function getFile from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 137_PROFILING_INFO_
+base-instrumented.js:145 _PROFILING_INFO_start function findRoot from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 132_PROFILING_INFO_
+base-instrumented.js:164 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 147_PROFILING_INFO_
+base-instrumented.js:174 _PROFILING_INFO_start function Learn from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 154_PROFILING_INFO_
+base-instrumented.js:212 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 199_PROFILING_INFO_
+base-instrumented.js:52 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 56_PROFILING_INFO_
+base-instrumented.js:16 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 9_PROFILING_INFO_
+base-instrumented.js:66 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 70_PROFILING_INFO_
+base-instrumented.js:242 _PROFILING_INFO_start function null from ../todomvc/examples/polymer/bower_components/todomvc-common/base.js in 227_PROFILING_INFO_
