@@ -37,8 +37,8 @@ def create_graphs(v_data, l_data, filename):
 
 
 if __name__ == '__main__':
-  v_precision, v_recall, v_fscore = retrieve_file_stats('_27_vazquez_statistics.csv')
-  l_precision, l_recall, l_fscore = retrieve_file_stats('_27_lacuna_statistics.csv')
+  v_precision, v_recall, v_fscore = retrieve_file_stats('_vazquez_.csv')
+  l_precision, l_recall, l_fscore = retrieve_file_stats('_lacuna_.csv')
 
   create_graphs(v_precision,l_precision,'Precision')
   create_graphs(v_recall,l_recall,'Recall')
