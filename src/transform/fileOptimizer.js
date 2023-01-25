@@ -112,7 +112,8 @@ var optimizeFileBrowser = function (file) {
             return console.log("ERROR reading file " + file);
         }
         originalCode = data;
-        optimizedCode = instrumentor.optimizeForBrowser(file, data, file_stats);
+   
+        optimizedCode = instrumentor.optimizeForBrowserModidified(file, data, file_stats);
 
         var newFileName = file.replace(".js","")+"-optimized.js";
 
@@ -140,7 +141,7 @@ var optimizeFileBrowser = function (file) {
         /**
          * size metrics
          */
-        file_stats['#Functions_in_bundle'] = instrumentor.countFunctions(file, originalCode);
+        file_stats['#Functions_in_bundle'] = instrumentor.countFunctionsModified('__original.json',file, originalCode);
         var fuctionsInOptimized = instrumentor.countFunctions(file, optimizedCode);
         file_stats['#UFFs detected'] = file_stats['#UFFs detected']+(file_stats['#Functions_in_bundle'] - fuctionsInOptimized);
 

@@ -133,6 +133,7 @@ module.exports.LogUFFsFromInstrumentedFiles = function (file,code) {
 					node.body.body[0].test.left.callee.object.name === "consoleLogArray"){
 					if(!register.isRegistered(node.body.body[0].consequent.body[1].expression.arguments[0].value)){
 						console.log("This node is an UFF: "+register.getKeyForFunction(node,file));
+						console.log(node.body.range)
 					}
 				}
 				return node;
@@ -213,6 +214,7 @@ module.exports.optimizeForBrowser = function (file,code,file_stats) {
                     }else{
 						file_stats['#UFFs detected']++;
                         //console.log("This node is an UFF: "+register.getKeyForFunction(node,file));
+												console.log(node.body.range)
 						console.log(register.getKeyForFunction(node,file));
 						var timestamp = Date.now();
 
@@ -236,20 +238,113 @@ module.exports.optimizeForBrowser = function (file,code,file_stats) {
     return  checkReturnStatement(_escodegen.generate(instrumentedAST/*,{comment: true}*/));
 }
 
+
 module.exports.countFunctions = function (file,code) {
 	var ast = parser.parseWithLOC(code,file);
 	ast  = _escodegen.attachComments(ast, ast.comments, ast.tokens);
 	var cont = 0;
+	// console.log(file)
+	// console.log(code)
 	var instrumentedAST = _estraverse.replace(ast, {
 		enter: function enter(node) {
 			if (_astTypes.namedTypes.FunctionDeclaration.check(node) || _astTypes.namedTypes.FunctionExpression.check(node)) {
 				cont++;
+
 				return node;
 			}
 		}
 	});
 
 	return cont;
+}
+
+module.exports.countFunctionsModified = function (f_name,file,code) {
+	var ast = parser.parseWithLOC(code,file);
+	ast  = _escodegen.attachComments(ast, ast.comments, ast.tokens);
+	var cont = 0;
+	var output = [];
+
+	var instrumentedAST = _estraverse.replace(ast, {
+		enter: function enter(node) {
+			if (_astTypes.namedTypes.FunctionDeclaration.check(node) || _astTypes.namedTypes.FunctionExpression.check(node)) {
+				cont++;
+				var ouput_item = {}
+				ouput_item.type = node.type
+				ouput_item.file = file
+				ouput_item.bodyRange = node.body.range
+				output.push(ouput_item)
+				return node;
+			}
+		}
+	});
+
+	var outputString = JSON.stringify(output);
+	var parts = file.split('/');
+	var newdir = parts.slice(0, 4).join('/');
+	var subject = parts[parts.length -1].split('.')[0]
+	var filepath = newdir+ '/' + subject
+	
+	fs.writeFile(filepath  + f_name, outputString, function(err, result) {
+    if(err) console.log('error', err);
+	});
+	
+	return cont;
+}
+
+module.exports.optimizeForBrowserModidified = function (file,code,file_stats) {
+	var ast = parser.parseWithLOC(code,file);
+	ast  = _escodegen.attachComments(ast, ast.comments, ast.tokens);
+	var cont = 1;
+	var output = [];
+	console.log("*** UFF List ***");
+	var instrumentedAST = _estraverse.replace(ast, {
+			enter: function enter(node) {
+					if (_astTypes.namedTypes.FunctionDeclaration.check(node) || _astTypes.namedTypes.FunctionExpression.check(node)) {
+									if(register.isRegistered(register.get_end_instrumentation(node,file))){
+											//console.log("This node is registered: "+register.getKeyForFunction(node,file));
+									}else{
+					file_stats['#UFFs detected']++;
+											//console.log("This node is an UFF: "+register.getKeyForFunction(node,file));
+											console.log(node.body.range)
+
+
+											var ouput_item = {}
+											ouput_item.type = node.type
+											ouput_item.file = file
+											ouput_item.bodyRange = node.body.range
+											output.push(ouput_item)
+
+
+					console.log(register.getKeyForFunction(node,file));
+					var timestamp = Date.now();
+
+											var hasReturn = hasReturnStatement(node.body);
+											var hasThis = hasThisExpression(node.body);
+											var functionCode = getFunctionCode(node.body,hasThis);
+					var functionFileName = "$"+getHash(functionCode)+timestamp+".js"; //verificar que no pueda haber dos tiemstamp iguales y dos hash iguales
+											createFile(functionFileName, functionCode);
+											var hookcode = getHookCode(functionFileName,hasReturn,hasThis);
+											node.body.body=[];
+											//console.log(hookcode);
+											node.body.body.unshift(parser.parseWithLOC(parser.trimFileName(hookcode),file));
+											cont++;
+									}
+							return node;
+					}
+			}
+	});
+	console.log("*** End UFF List ***");
+	var outputString = JSON.stringify(output);
+	var parts = file.split('/');
+	var newdir = parts.slice(0, 4).join('/');
+	var subject = parts[parts.length -1].split('.')[0]
+	var filepath = newdir+ '/' + subject
+	
+	fs.writeFile(filepath  + '__dead.json', outputString, function(err, result) {
+    if(err) console.log('error', err);
+	});
+
+	return  checkReturnStatement(_escodegen.generate(instrumentedAST/*,{comment: true}*/));
 }
 
 var checkReturnStatement = function(code){

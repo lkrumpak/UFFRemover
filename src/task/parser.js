@@ -44,7 +44,7 @@ module.exports.trimFileName = function(file) {
 module.exports.parse = function(code, file) {
 	var result = '';
 	try {
-		result = _esprima.parse(trimHashbang(code));
+		result = _esprima.parse(trimHashbang(code)); 
 	} catch (e) {
 		throw new Error('parse error in ' + file);
 	}

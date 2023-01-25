@@ -18,8 +18,8 @@ module.exports.removeFunctions = function (file,code,keys) {
 	  var instrumentedAST = _estraverse.replace(ast, {
 	    enter: function enter(node) {
 	      if (_astTypes.namedTypes.FunctionDeclaration.check(node)) {
-	    	//console.log(get_start_instrumentation(node.id.name,file,node.loc.start.line));
-	  		//console.log(get_end_instrumentation(node.id.name,file,node.loc.start.line));
+	    	console.log(get_start_instrumentation(node.id.name,file,node.loc.start.line));
+	  		console.log(get_end_instrumentation(node.id.name,file,node.loc.start.line));
 	    	//node.body.body.unshift(parser.parseWithLOC(get_start_instrumentation(node.id.name,parser.trimFileName(file),node.loc.start.line)));
 	    	//node.body.body.push(_esprima.parse(get_end_instrumentation(node.id.name,file,node.loc.start.line)));
 	    	return node;
@@ -39,8 +39,8 @@ module.exports.removeFunctions = function (file,code,keys) {
 		    	return node;
 		  }*/
 	      if (_astTypes.namedTypes.FunctionExpression.check(node)) {
-	    	//console.log(get_start_instrumentation(node.id,file,node.loc.start.line));
-	  		//console.log(get_end_instrumentation(node.id.name,file,node.loc.start.line));
+	    	// console.log(get_start_instrumentation(node.id,file,node.loc.start.line));
+	  		// console.log(get_end_instrumentation(node.id.name,file,node.loc.start.line));
 	    	node.body.body.unshift(parser.parseWithLOC(get_start_instrumentation(node,file)));
 	    	//node.body.body.push(_esprima.parse(get_end_instrumentation(node.id.name,file,node.loc.start.line)));
 	    	return node;
