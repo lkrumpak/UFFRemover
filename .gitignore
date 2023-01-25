@@ -10,4 +10,5 @@ scripts/_vazquez_.csv
 .idea
 
 # Dependency directory
-./node_modules
+/node_modules/
+/todomvc/node_modules/
