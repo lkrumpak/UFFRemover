@@ -1,3 +1,0 @@
-(function(){{
-    dispatcher.dispatch('render');
-}})();

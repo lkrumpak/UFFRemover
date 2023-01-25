@@ -1,3 +1,0 @@
-(function(){{
-        $that.body = body;
-}})();

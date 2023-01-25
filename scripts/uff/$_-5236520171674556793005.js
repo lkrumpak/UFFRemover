@@ -1,3 +1,0 @@
-(function(){{
-    return deburredLetters[letter];
-}})();

@@ -1,3 +1,0 @@
-(function(){{
-    result[key] = value;
-}})();

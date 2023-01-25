@@ -1,3 +1,0 @@
-(function(){{
-    support.noCloneEvent = false;
-}})();

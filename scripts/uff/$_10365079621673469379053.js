@@ -1,3 +1,0 @@
-(function(){{
-    forEachAccumulated(events, accumulateDirectDispatchesSingle);
-}})();

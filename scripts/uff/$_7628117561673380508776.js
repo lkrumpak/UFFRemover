@@ -1,3 +1,0 @@
-(function(){{
-        $that.jc = a;
-}})();

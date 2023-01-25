@@ -1,3 +1,0 @@
-(function(){{
-    EventPluginUtils.useTouchEvents = shouldUseTouch;
-}})();

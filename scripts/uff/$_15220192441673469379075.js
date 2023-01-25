@@ -1,3 +1,0 @@
-(function(){{
-    ReactPerf.enableMeasure = false;
-}})();

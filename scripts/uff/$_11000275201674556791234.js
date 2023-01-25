@@ -1,3 +1,0 @@
-(function(){{
-    return completed ? 'completed' : '';
-}})();

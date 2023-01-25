@@ -1,3 +1,0 @@
-(function(){{
-    unregisterDependant(    $that);
-}})();

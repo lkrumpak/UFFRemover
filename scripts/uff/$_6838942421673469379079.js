@@ -1,3 +1,0 @@
-(function(){{
-    nullComponentIDsRegistry[id] = true;
-}})();

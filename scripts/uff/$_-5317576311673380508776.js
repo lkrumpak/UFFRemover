@@ -1,3 +1,0 @@
-(function(){{
-    Re.call(    $that);
-}})();

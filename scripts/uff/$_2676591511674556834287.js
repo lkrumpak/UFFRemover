@@ -1,3 +1,0 @@
-(function(){{
-    model.delAll(getCompleted());
-}})();

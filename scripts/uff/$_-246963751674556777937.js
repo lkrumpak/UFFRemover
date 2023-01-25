@@ -1,3 +1,0 @@
-(function(){{
-    setAttrs(newVal);
-}})();

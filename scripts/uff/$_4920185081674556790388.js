@@ -1,3 +1,0 @@
-(function(){{
-        $that.returnValue = false;
-}})();
