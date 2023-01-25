@@ -40,8 +40,6 @@ gulp test-server
 This step is optional as the values from the ground truth are already provided. The values can be found at `todomvc\examples.groundtruth`. However, if you wish to retrieve the ground truth values, please visit the following [link](https://github.com/lkrumpak/lacuna-evaluation-ground-truth)
 
 ## Step 2. Instrumenting the subjects
-First lets make a copy of exmaples folder and name it example.original this will be used in a later step!
-
 Run the following script within the "scripts" folder:
 ```
 python3 instrument_files.py
@@ -63,3 +61,24 @@ npm run test
 The above command will run automated tests that will interact with the website. After each interaction, the console will prompt you to download the logs from the browser console. Once complete, press enter and continue until you have completed this step for all subjects. (Before downloading the logs make sure you delete at least one item from the todo list since I was unable to reproduce this action reliably using the script)
 
 **_IMPORTANT_NOTE:_** The script might sometimes freeze and you might want to restart to ensure you have collected all possible actions
+
+## Step 4. Running the UFFRemover Optimizer
+The following script will run the optimizor on each subject using the logs from the "interaction" folder. If you wish to use the logs from the "no-interaction" folder you will have to edit the path within "subject_optimizor.py"
+
+``` 
+python3 subject_optimizor.py
+``` 
+
+within the 'scripts/output' folder you will find a json file for each subject with the results of the optimization.
+
+## Step 5. Statistics
+The following command will create 3 .csv files within the scripts folder. The files contain different data used in the following paper "Empirical Assessment of the performance of UFFRemover".
+``` 
+python3 statistics.py
+```
+
+## Step 5. Graphs
+The following command will create a box plot for Precsion, Recall, and f-score. The graph is used to comapre UFFRemover with Lacuna.
+``` 
+python3 graphs.py
+```
