@@ -1,0 +1,42 @@
+{
+    "subject": "canjs",
+    "total_functions": 1105,
+    "total_uff": 646,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 4
+        },
+        {
+            "file": "node_modules/jquery/dist/jquery.js",
+            "total_functions": 559,
+            "uff": 422
+        },
+        {
+            "file": "node_modules/canjs/can.jquery.js",
+            "total_functions": 490,
+            "uff": 198
+        },
+        {
+            "file": "node_modules/canjs-localstorage/can.localstorage.js",
+            "total_functions": 14,
+            "uff": 8
+        },
+        {
+            "file": "js/models/todo.js",
+            "total_functions": 9,
+            "uff": 4
+        },
+        {
+            "file": "js/components/todo-app.js",
+            "total_functions": 14,
+            "uff": 10
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 2,
+            "uff": 0
+        }
+    ]
+}

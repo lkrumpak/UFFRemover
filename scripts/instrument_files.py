@@ -10,7 +10,7 @@ def instrument_files():
 
     for subject in subjects:
         PROJ_PATH = SUBJECT_PATH + subject
-        js_paths = parse_html(subject, PROJ_PATH)
+        js_paths = parse_html(PROJ_PATH)
         
         for js_path in js_paths:
             rename_js_files(PROJ_PATH, js_path)

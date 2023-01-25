@@ -1,0 +1,27 @@
+{
+    "subject": "knockoutjs",
+    "total_functions": 560,
+    "total_uff": 198,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 4
+        },
+        {
+            "file": "node_modules/knockout/build/output/knockout-latest.js",
+            "total_functions": 454,
+            "uff": 130
+        },
+        {
+            "file": "node_modules/director/build/director.js",
+            "total_functions": 59,
+            "uff": 45
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 30,
+            "uff": 19
+        }
+    ]
+}

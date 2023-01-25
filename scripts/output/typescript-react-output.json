@@ -1,0 +1,32 @@
+{
+    "subject": "typescript-react",
+    "total_functions": 1105,
+    "total_uff": 537,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 5
+        },
+        {
+            "file": "node_modules/react/dist/react-with-addons.js",
+            "total_functions": 952,
+            "uff": 448
+        },
+        {
+            "file": "node_modules/classnames/index.js",
+            "total_functions": 3,
+            "uff": 2
+        },
+        {
+            "file": "node_modules/director/build/director.js",
+            "total_functions": 59,
+            "uff": 36
+        },
+        {
+            "file": "js/bundle.js",
+            "total_functions": 73,
+            "uff": 46
+        }
+    ]
+}

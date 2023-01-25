@@ -1,0 +1,4 @@
+(function(){{
+    var n = e, r = Aria.rootFolderPath, i = e.lastIndexOf('.'), s = e.substring(0, i), o =         $that._urlMap, u =         $that._rootMap, a = s.split('/'), f;
+    return t !== !0 && (f =     $that._extractTarget(o, a, !0), o = f.node,     $that._typeUtils.isString(o) ? n = o :     $that._typeUtils.isInstanceOf(o, 'aria.utils.Callback') ? n = o.call(e) :     $that._typeUtils.isFunction(o) && (n = o.call(null, e))), u =     $that._extractTarget(u, a).node,     $that._typeUtils.isString(u) ? r = u :     $that._typeUtils.isInstanceOf(u, 'aria.utils.Callback') ? r = u.call(e) :     $that._typeUtils.isFunction(u) && (r = u.call(null, e)), r + n;
+}})();

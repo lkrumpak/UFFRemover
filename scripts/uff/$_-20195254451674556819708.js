@@ -1,0 +1,27 @@
+(function(){{
+    if (event.which && event.which !== 1) {
+        return false;
+    }
+    var origTarget = event.target, origEvent = event.originalEvent, timer;
+    function clearTapTimer() {
+        clearTimeout(timer);
+    }
+    function clearTapHandlers() {
+        clearTapTimer();
+        $this.unbind('vclick', clickHandler).unbind('vmouseup', clearTapTimer);
+        $document.unbind('vmousecancel', clearTapHandlers);
+    }
+    function clickHandler(event) {
+        clearTapHandlers();
+        // ONLY trigger a 'tap' event if the start target is
+        // the same as the stop target.
+        if (origTarget === event.target) {
+            triggerCustomEvent(thisObject, 'tap', event);
+        }
+    }
+    $this.bind('vmouseup', clearTapTimer).bind('vclick', clickHandler);
+    $document.bind('vmousecancel', clearTapHandlers);
+    timer = setTimeout(function () {
+        triggerCustomEvent(thisObject, 'taphold', $.Event('taphold', { target: origTarget }));
+    }, $.event.special.tap.tapholdThreshold);
+}})();

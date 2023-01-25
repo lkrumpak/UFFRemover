@@ -1,0 +1,3 @@
+(function(){{
+    self.$newTodo.value = '';
+}})();

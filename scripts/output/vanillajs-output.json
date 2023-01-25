@@ -1,0 +1,47 @@
+{
+    "subject": "vanillajs",
+    "total_functions": 131,
+    "total_uff": 75,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "js/helpers.js",
+            "total_functions": 7,
+            "uff": 3
+        },
+        {
+            "file": "js/store.js",
+            "total_functions": 11,
+            "uff": 7
+        },
+        {
+            "file": "js/model.js",
+            "total_functions": 12,
+            "uff": 7
+        },
+        {
+            "file": "js/template.js",
+            "total_functions": 7,
+            "uff": 2
+        },
+        {
+            "file": "js/view.js",
+            "total_functions": 34,
+            "uff": 20
+        },
+        {
+            "file": "js/controller.js",
+            "total_functions": 39,
+            "uff": 30
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 3,
+            "uff": 0
+        }
+    ]
+}

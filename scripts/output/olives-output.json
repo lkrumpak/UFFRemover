@@ -1,0 +1,17 @@
+{
+    "subject": "olives",
+    "total_functions": 533,
+    "total_uff": 348,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "olives-todo.js",
+            "total_functions": 515,
+            "uff": 342
+        }
+    ]
+}

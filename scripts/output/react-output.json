@@ -1,0 +1,42 @@
+{
+    "subject": "react",
+    "total_functions": 1848,
+    "total_uff": 1001,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 5
+        },
+        {
+            "file": "node_modules/react/dist/react-with-addons.js",
+            "total_functions": 952,
+            "uff": 450
+        },
+        {
+            "file": "node_modules/classnames/index.js",
+            "total_functions": 3,
+            "uff": 2
+        },
+        {
+            "file": "node_modules/react/dist/JSXTransformer.js",
+            "total_functions": 795,
+            "uff": 492
+        },
+        {
+            "file": "node_modules/director/build/director.js",
+            "total_functions": 59,
+            "uff": 36
+        },
+        {
+            "file": "js/utils.js",
+            "total_functions": 5,
+            "uff": 3
+        },
+        {
+            "file": "js/todoModel.js",
+            "total_functions": 16,
+            "uff": 13
+        }
+    ]
+}

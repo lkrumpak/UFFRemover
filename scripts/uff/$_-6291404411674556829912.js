@@ -1,0 +1,3 @@
+(function(){{
+    node.textContent = text;
+}})();

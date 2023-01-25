@@ -1,0 +1,17 @@
+{
+    "subject": "closure",
+    "total_functions": 591,
+    "total_uff": 298,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "js/compiled.js",
+            "total_functions": 573,
+            "uff": 292
+        }
+    ]
+}

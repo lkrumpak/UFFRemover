@@ -1,0 +1,22 @@
+{
+    "subject": "troopjs_require",
+    "total_functions": 133,
+    "total_uff": 51,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "node_modules/requirejs/require.js",
+            "total_functions": 112,
+            "uff": 45
+        },
+        {
+            "file": "index.js",
+            "total_functions": 3,
+            "uff": 0
+        }
+    ]
+}

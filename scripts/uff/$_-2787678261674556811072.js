@@ -1,0 +1,3 @@
+(function(){{
+        $that.todo = todo;
+}})();

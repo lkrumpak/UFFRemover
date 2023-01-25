@@ -1,0 +1,12 @@
+{
+    "subject": "polymer",
+    "total_functions": 18,
+    "total_uff": 6,
+    "files": [
+        {
+            "file": "bower_components/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "subject": "serenadejs",
+    "total_functions": 400,
+    "total_uff": 77,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 5
+        },
+        {
+            "file": "node_modules/director/build/director.js",
+            "total_functions": 59,
+            "uff": 47
+        },
+        {
+            "file": "js/lib/serenade.js",
+            "total_functions": 292,
+            "uff": 2
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 32,
+            "uff": 23
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+(function(){{
+    blockTouchTriggers = false;
+}})();

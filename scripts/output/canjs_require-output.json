@@ -1,0 +1,17 @@
+{
+    "subject": "canjs_require",
+    "total_functions": 128,
+    "total_uff": 52,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 4
+        },
+        {
+            "file": "node_modules/requirejs/require.js",
+            "total_functions": 111,
+            "uff": 48
+        }
+    ]
+}

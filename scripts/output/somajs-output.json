@@ -1,0 +1,52 @@
+{
+    "subject": "somajs",
+    "total_functions": 256,
+    "total_uff": 123,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 4
+        },
+        {
+            "file": "node_modules/director/build/director.js",
+            "total_functions": 59,
+            "uff": 44
+        },
+        {
+            "file": "node_modules/soma-template/build/soma-template.js",
+            "total_functions": 140,
+            "uff": 57
+        },
+        {
+            "file": "js/models/todos.js",
+            "total_functions": 6,
+            "uff": 2
+        },
+        {
+            "file": "js/models/router.js",
+            "total_functions": 4,
+            "uff": 1
+        },
+        {
+            "file": "js/views/header.js",
+            "total_functions": 6,
+            "uff": 2
+        },
+        {
+            "file": "js/views/main.js",
+            "total_functions": 14,
+            "uff": 10
+        },
+        {
+            "file": "js/views/footer.js",
+            "total_functions": 7,
+            "uff": 3
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 3,
+            "uff": 0
+        }
+    ]
+}

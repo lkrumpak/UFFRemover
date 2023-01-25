@@ -1,0 +1,3 @@
+(function(){{
+    deps.push(dep);
+}})();

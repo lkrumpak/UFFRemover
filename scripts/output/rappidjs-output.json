@@ -1,0 +1,17 @@
+{
+    "subject": "rappidjs",
+    "total_functions": 865,
+    "total_uff": 20,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 5
+        },
+        {
+            "file": "app/lib/rappidjs.min.js",
+            "total_functions": 848,
+            "uff": 15
+        }
+    ]
+}

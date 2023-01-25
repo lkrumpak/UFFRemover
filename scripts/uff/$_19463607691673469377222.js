@@ -1,0 +1,3 @@
+(function(){{
+    nodeLists.unregister(nodeList);
+}})();

@@ -1,0 +1,47 @@
+{
+    "subject": "mithril",
+    "total_functions": 136,
+    "total_uff": 84,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "node_modules/mithril/mithril.js",
+            "total_functions": 88,
+            "uff": 57
+        },
+        {
+            "file": "js/models/todo.js",
+            "total_functions": 3,
+            "uff": 2
+        },
+        {
+            "file": "js/models/storage.js",
+            "total_functions": 3,
+            "uff": 1
+        },
+        {
+            "file": "js/controllers/todo.js",
+            "total_functions": 14,
+            "uff": 12
+        },
+        {
+            "file": "js/views/main-view.js",
+            "total_functions": 9,
+            "uff": 5
+        },
+        {
+            "file": "js/views/footer-view.js",
+            "total_functions": 1,
+            "uff": 1
+        },
+        {
+            "file": "js/app.js",
+            "total_functions": 0,
+            "uff": 0
+        }
+    ]
+}

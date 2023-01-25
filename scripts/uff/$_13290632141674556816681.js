@@ -1,0 +1,3 @@
+(function(){{
+        $that.fragment.teardown();
+}})();

@@ -1,0 +1,17 @@
+{
+    "subject": "backbone_require",
+    "total_functions": 127,
+    "total_uff": 39,
+    "files": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "total_functions": 17,
+            "uff": 4
+        },
+        {
+            "file": "node_modules/requirejs/require.js",
+            "total_functions": 110,
+            "uff": 35
+        }
+    ]
+}

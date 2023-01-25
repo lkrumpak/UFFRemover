@@ -1,0 +1,3 @@
+(function(){{
+    ReactPerf.storedMeasure = measure;
+}})();

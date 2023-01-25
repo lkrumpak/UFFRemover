@@ -1,0 +1,3 @@
+(function(){{
+        $that.cancelBubble = true;
+}})();

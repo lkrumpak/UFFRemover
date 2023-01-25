@@ -1,0 +1,21 @@
+(function(){{
+    var initial = arguments.length > 2;
+    if (obj == null)
+        obj = [];
+    if (nativeReduce && obj.reduce === nativeReduce) {
+        if (context)
+            iterator = _.bind(iterator, context);
+        return initial ? obj.reduce(iterator, memo) : obj.reduce(iterator);
+    }
+    each(obj, function (value, index, list) {
+        if (!initial) {
+            memo = value;
+            initial = true;
+        } else {
+            memo = iterator.call(context, memo, value, index, list);
+        }
+    });
+    if (!initial)
+        throw new TypeError(reduceError);
+    return memo;
+}})();

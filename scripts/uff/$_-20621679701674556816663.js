@@ -1,0 +1,3 @@
+(function(){{
+    teardown(    $that);
+}})();

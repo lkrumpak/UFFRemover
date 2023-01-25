@@ -1,0 +1,22 @@
+{
+    "subject": "aurelia",
+    "total_functions": 357,
+    "total_uff": 13,
+    "files": [
+        {
+            "file": "jspm_packages/npm/todomvc-common@1.0.2/base.js",
+            "total_functions": 18,
+            "uff": 6
+        },
+        {
+            "file": "jspm_packages/system.js",
+            "total_functions": 339,
+            "uff": 7
+        },
+        {
+            "file": "config.js",
+            "total_functions": 0,
+            "uff": 0
+        }
+    ]
+}

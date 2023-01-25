@@ -1,0 +1,3 @@
+(function(){{
+    dispatcher.dispatch('render');
+}})();

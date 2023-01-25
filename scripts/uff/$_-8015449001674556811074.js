@@ -1,0 +1,3 @@
+(function(){{
+        $that.field = field;
+}})();

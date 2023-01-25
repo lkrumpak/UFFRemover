@@ -1,3 +1,8 @@
+#ignore
+scripts/__pycache__/
+scripts/_descriptive_stats_.csv
+scripts/_groundtruth_.csv
+scripts/_vazquez_.csv
 
 # macOS
 .DS_store
