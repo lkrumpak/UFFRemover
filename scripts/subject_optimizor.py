@@ -70,7 +70,7 @@ def optimize_subjects(subjects=None):
         print("=== Current Subject: " + webapp + " ===")
 
         proj_path = subject_path + webapp
-        log_path = '../logs_no/' + webapp + ".log"
+        log_path = '../logs/interaction/' + webapp + ".log"
         js_paths = parse_html(proj_path)
 
         subject_obj = OptimisedSubject(webapp)

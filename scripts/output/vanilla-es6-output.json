@@ -1,12 +1,12 @@
 {
     "subject": "vanilla-es6",
     "total_functions": 80,
-    "total_uff": 30,
+    "total_uff": 7,
     "files": [
         {
             "file": "dist/bundle.js",
             "total_functions": 62,
-            "uff": 24
+            "uff": 1
         },
         {
             "file": "node_modules/todomvc-common/base.js",

@@ -1,7 +1,7 @@
 {
     "subject": "typescript-react",
     "total_functions": 1105,
-    "total_uff": 537,
+    "total_uff": 411,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,12 +11,12 @@
         {
             "file": "node_modules/react/dist/react-with-addons.js",
             "total_functions": 952,
-            "uff": 448
+            "uff": 366
         },
         {
             "file": "node_modules/classnames/index.js",
             "total_functions": 3,
-            "uff": 2
+            "uff": 1
         },
         {
             "file": "node_modules/director/build/director.js",
@@ -26,7 +26,7 @@
         {
             "file": "js/bundle.js",
             "total_functions": 73,
-            "uff": 46
+            "uff": 3
         }
     ]
 }

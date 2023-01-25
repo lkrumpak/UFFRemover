@@ -1,7 +1,7 @@
 {
     "subject": "typescript-backbone",
     "total_functions": 1243,
-    "total_uff": 937,
+    "total_uff": 779,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,27 +11,27 @@
         {
             "file": "node_modules/jquery/dist/jquery.js",
             "total_functions": 559,
-            "uff": 454
+            "uff": 386
         },
         {
             "file": "node_modules/lodash/index.js",
             "total_functions": 451,
-            "uff": 344
+            "uff": 325
         },
         {
             "file": "node_modules/backbone/backbone.js",
             "total_functions": 147,
-            "uff": 93
+            "uff": 59
         },
         {
             "file": "node_modules/backbone.localstorage/backbone.localStorage.js",
             "total_functions": 25,
-            "uff": 15
+            "uff": 3
         },
         {
             "file": "js/app.js",
             "total_functions": 43,
-            "uff": 26
+            "uff": 1
         }
     ]
 }

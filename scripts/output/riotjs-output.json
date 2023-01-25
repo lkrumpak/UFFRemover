@@ -1,7 +1,7 @@
 {
     "subject": "riotjs",
     "total_functions": 170,
-    "total_uff": 20,
+    "total_uff": 17,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,7 +11,7 @@
         {
             "file": "node_modules/riot/riot+compiler.min.js",
             "total_functions": 148,
-            "uff": 14
+            "uff": 11
         },
         {
             "file": "js/store.js",

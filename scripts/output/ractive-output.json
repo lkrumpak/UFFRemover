@@ -1,7 +1,7 @@
 {
     "subject": "ractive",
     "total_functions": 932,
-    "total_uff": 501,
+    "total_uff": 355,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,27 +11,27 @@
         {
             "file": "node_modules/ractive/build/Ractive.js",
             "total_functions": 831,
-            "uff": 431
+            "uff": 313
         },
         {
             "file": "node_modules/director/build/director.js",
             "total_functions": 59,
-            "uff": 47
+            "uff": 36
         },
         {
             "file": "js/app.js",
             "total_functions": 18,
-            "uff": 14
+            "uff": 1
         },
         {
             "file": "js/persistence.js",
             "total_functions": 3,
-            "uff": 1
+            "uff": 0
         },
         {
             "file": "js/routes.js",
             "total_functions": 4,
-            "uff": 3
+            "uff": 0
         }
     ]
 }

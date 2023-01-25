@@ -1,7 +1,7 @@
 {
     "subject": "dojo",
     "total_functions": 1074,
-    "total_uff": 107,
+    "total_uff": 86,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -16,7 +16,7 @@
         {
             "file": "js/lib/dojo/dojo.js",
             "total_functions": 1055,
-            "uff": 102
+            "uff": 81
         }
     ]
 }

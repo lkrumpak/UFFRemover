@@ -1,7 +1,7 @@
 {
     "subject": "serenadejs",
     "total_functions": 400,
-    "total_uff": 77,
+    "total_uff": 44,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,7 +11,7 @@
         {
             "file": "node_modules/director/build/director.js",
             "total_functions": 59,
-            "uff": 47
+            "uff": 36
         },
         {
             "file": "js/lib/serenade.js",
@@ -21,7 +21,7 @@
         {
             "file": "js/app.js",
             "total_functions": 32,
-            "uff": 23
+            "uff": 1
         }
     ]
 }

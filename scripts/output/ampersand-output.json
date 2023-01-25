@@ -1,7 +1,7 @@
 {
     "subject": "ampersand",
     "total_functions": 774,
-    "total_uff": 473,
+    "total_uff": 382,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,7 +11,7 @@
         {
             "file": "todomvc.bundle.js",
             "total_functions": 757,
-            "uff": 468
+            "uff": 377
         }
     ]
 }

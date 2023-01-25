@@ -1,7 +1,7 @@
 {
     "subject": "ariatemplates",
     "total_functions": 472,
-    "total_uff": 85,
+    "total_uff": 460,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,7 +11,7 @@
         {
             "file": "js/lib/aria/ariatemplates-1.3.5.js",
             "total_functions": 455,
-            "uff": 80
+            "uff": 455
         }
     ]
 }

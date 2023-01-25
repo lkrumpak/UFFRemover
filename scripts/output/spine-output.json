@@ -1,7 +1,7 @@
 {
     "subject": "spine",
     "total_functions": 999,
-    "total_uff": 753,
+    "total_uff": 535,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -11,17 +11,17 @@
         {
             "file": "node_modules/jquery/dist/jquery.js",
             "total_functions": 596,
-            "uff": 466
+            "uff": 403
         },
         {
             "file": "node_modules/handlebars/dist/handlebars.js",
             "total_functions": 192,
-            "uff": 167
+            "uff": 65
         },
         {
             "file": "node_modules/spine/lib/spine.js",
             "total_functions": 120,
-            "uff": 84
+            "uff": 52
         },
         {
             "file": "node_modules/spine/lib/route.js",
@@ -31,22 +31,22 @@
         {
             "file": "node_modules/spine/lib/local.js",
             "total_functions": 4,
-            "uff": 1
+            "uff": 0
         },
         {
             "file": "js/controllers/todos.js",
             "total_functions": 15,
-            "uff": 11
+            "uff": 1
         },
         {
             "file": "js/models/todo.js",
             "total_functions": 10,
-            "uff": 4
+            "uff": 0
         },
         {
             "file": "js/app.js",
             "total_functions": 19,
-            "uff": 6
+            "uff": 0
         }
     ]
 }

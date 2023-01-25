@@ -1,17 +1,17 @@
 {
     "subject": "react-alt",
     "total_functions": 2033,
-    "total_uff": 1077,
+    "total_uff": 1578,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
             "total_functions": 18,
-            "uff": 5
+            "uff": 18
         },
         {
             "file": "node_modules/react/dist/react-with-addons.js",
             "total_functions": 952,
-            "uff": 447
+            "uff": 952
         },
         {
             "file": "node_modules/react/dist/JSXTransformer.js",
@@ -26,12 +26,12 @@
         {
             "file": "node_modules/alt/dist/alt.js",
             "total_functions": 186,
-            "uff": 78
+            "uff": 76
         },
         {
             "file": "js/utils.js",
             "total_functions": 5,
-            "uff": 2
+            "uff": 0
         },
         {
             "file": "js/alt.js",
@@ -41,12 +41,12 @@
         {
             "file": "js/actions/todoActions.js",
             "total_functions": 2,
-            "uff": 1
+            "uff": 0
         },
         {
             "file": "js/stores/todoStore.js",
             "total_functions": 15,
-            "uff": 12
+            "uff": 0
         }
     ]
 }

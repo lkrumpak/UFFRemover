@@ -1,7 +1,7 @@
 {
     "subject": "lavaca_require",
     "total_functions": 981,
-    "total_uff": 678,
+    "total_uff": 621,
     "files": [
         {
             "file": "node_modules/todomvc-common/base.js",
@@ -16,7 +16,7 @@
         {
             "file": "js/libs/lavaca.js",
             "total_functions": 853,
-            "uff": 643
+            "uff": 586
         },
         {
             "file": "js/app/boot.js",
