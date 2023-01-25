@@ -1,21 +1,63 @@
-# UFFRemover
+# Introduction
 
-UFFRemover is a slimming JavaScript tool for identifying and removing unused foreign functions (UFF).
+This repo contains all the necessary files to evaluate the performance of [UFFRemover](https://github.com/hcvazquez/UFFRemover), a dead code elimination tool, on a set of 37 web applications. These applications originate from the [TodoMVC project](https://todomvc.com/). However, the repository has not been updated for a few years, so we took the time to update the necessary dependencies to be able to execute the web applications on modern hardware (see Requirements Section).
 
-## Installation
+# Requirements
 
-UFFRemover is developed using Node.js execution environment (>= v6.1.0). The following steps are needed for running the tool:
+The following repo is a modified version of the original [UFFRemover](https://github.com/hcvazquez/UFFRemover). The purpose of this repo is to generate results for all 37 subjects, therefore several custom scripts are introduced. Here are the Hardware specifications for which this project is certain to work on:
 
-#### 1. Install Node.js environment
-Node.js can be downloaded from (https://nodejs.org)
+- node version: 18.12.1
+- npm version: 8.19.2
+- python: 3.10.9
+- Hardware: Macbook pro (M1 chip), 16GB ram
+- Chrome: 108.0.0
 
-#### 2. Download the project from github
+# Setup
+## Install dependencies
+In a terminal, run the following command:
 
-    git clone git://github.com/hcvazquez/UFFRemover.git
-    cd UFFRemover
+```
+bash setup.sh
+```
+or 
+```
+./setup.sh
+```
 
-#### 3. Install the project dependencies
+This script installs all required dependencies for this project
 
-    npm install
+## Host the target web applications
+Now that all the dependencies of the target web applications have been installed, it is time to host them, before executing UFFRemover on the selectied web applications. To achieve this, run the following command within the todomvc folder:
 
-## Optimization
+```
+gulp test-server
+```
+**_NOTE:_**  You should run the command in a seperate terminal or you can use something like [tmux](https://github.com/tmux/tmux).
+
+# Execution
+
+## Step 1. Acquire the Ground Truth Values [OPTIONAL]
+This step is optional as the values from the ground truth are already provided. The values can be found at `todomvc\examples.groundtruth`. However, if you wish to retrieve the ground truth values, please visit the following [link](https://github.com/lkrumpak/lacuna-evaluation-ground-truth)
+
+## Step 2. Instrumenting the subjects
+Run the following script within the "scripts" folder:
+```
+python3 instrument_files.py
+```
+
+The following script will retrieve all used JS files by parsing the index.html for each subject within the examples folder. Once the instrumentation process is complete the script will also automatically updated all refrences to the new" instrumented.js" file.
+
+## Step 3. Obtaining the logs [Optional]
+**_NOTE:_** The Log files for each subject is already provided but in case you want to obtian the logs yourself you can follow this step.
+
+Now its time to host the web apps (see above).
+
+In a seperate terminal or using tmux open the tests folder and run the following command:
+
+```
+npm run test
+``` 
+
+The above command will run automated tests that will interact with the website. After each interaction, the console will prompt you to download the logs from the browser console. Once complete, press enter and continue until you have completed this step for all subjects. (Before downloading the logs make sure you delete at least one item from the todo list since I was unable to reproduce this action reliably using the script)
+
+**_IMPORTANT_NOTE:_** The script might sometimes freeze and you might want to restart to ensure you have collected all possible actions
