@@ -12,3 +12,4 @@ scripts/_vazquez_.csv
 # Dependency directory
 /node_modules/
 /todomvc/node_modules/
+typescript

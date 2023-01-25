@@ -4,13 +4,16 @@
   "private": true,
   "devDependencies": {
     "chromedriver": "^108.0.0",
+    "drool": "0.4.0",
     "mocha": "*",
     "mocha-known-issues-reporter": "git+https://github.com/ColinEberhardt/mocha-known-issues-reporter.git#v0.0.0",
     "optimist": "^0.6.1",
-    "selenium-webdriver": "~2.53.1",
-    "drool": "0.4.0"
+    "selenium-webdriver": "~2.53.1"
   },
   "scripts": {
     "test": "mocha allTests.js --no-timeouts --reporter spec"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }

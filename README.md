@@ -40,6 +40,8 @@ gulp test-server
 This step is optional as the values from the ground truth are already provided. The values can be found at `todomvc\examples.groundtruth`. However, if you wish to retrieve the ground truth values, please visit the following [link](https://github.com/lkrumpak/lacuna-evaluation-ground-truth)
 
 ## Step 2. Instrumenting the subjects
+First lets make a copy of exmaples folder and name it example.original this will be used in a later step!
+
 Run the following script within the "scripts" folder:
 ```
 python3 instrument_files.py
