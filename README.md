@@ -4,7 +4,7 @@ This repo contains all the necessary files to evaluate the performance of [UFFRe
 
 # Requirements
 
-The following repo is a modified version of the original [UFFRemover](https://github.com/hcvazquez/UFFRemover). The purpose of this repo is to generate results for all 37 subjects, therefore several custom scripts are introduced. Here are the Hardware specifications for which this project is certain to work on:
+The following repo is a modified version of the original [UFFRemover](https://github.com/hcvazquez/UFFRemover). The purpose of this repo is to generate results for all 37 subjects, therefore several custom scripts and modifications were made. Here are the hardware specifications for which this project is certain to work on:
 
 - node version: 18.12.1
 - npm version: 8.19.2
@@ -77,8 +77,8 @@ The following command will create 3 .csv files within the scripts folder. The fi
 python3 statistics.py
 ```
 
-## Step 5. Graphs
-The following command will create a box plot for Precsion, Recall, and f-score. The graph is used to comapre UFFRemover with Lacuna.
+## Step 6. Graphs
+The following command will create a box plot for Precsion, Recall, and f-score. The graph is used to comapre UFFRemover with [Lacuna](https://github.com/S2-group/Lacuna).
 ``` 
 python3 graphs.py
 ```
